@@ -1,12 +1,12 @@
 ---
 name: youtube-shorts-story
-description: "Writes the story and visual description for a 0-10 second YouTube Short from a single topic. Use whenever the user gives a topic and wants a YouTube Short, Shorts story, Shorts description, short video idea, or a 10-second video concept, even if they just say 'make a short about X' or 'YouTube short: [topic]'. Produces a concise, attractive shot-by-shot visual brief with real footage only. Never writes captions or hashtags, and never uses animation."
+description: "Writes the story and visual description for a 0-12 second YouTube Short from a single topic. Use whenever the user gives a topic and wants a YouTube Short, Shorts story, Shorts description, short video idea, or a 12-second video concept, even if they just say 'make a short about X' or 'YouTube short: [topic]'. Produces a concise, attractive shot-by-shot visual brief with real footage only. Never writes captions or hashtags, and never uses animation."
 when_to_use: "Use this whenever the user provides a topic and wants a YouTube Short. The user gives the topic only; this skill writes everything else."
 ---
 
 # YouTube Shorts Story
 
-Turn a single topic into the complete story for a 0-10 second YouTube Short: the concept, exactly what the 10 seconds show, and what to include versus avoid. The output is a tight visual brief someone can hand straight to a shooter or editor.
+Turn a single topic into the complete story for a 0-12 second YouTube Short: the concept, exactly what the 12 seconds show, and what to include versus avoid. The output is a tight visual brief someone can hand straight to a shooter or editor.
 
 
 ## Input
@@ -18,14 +18,14 @@ A topic. That is the only thing required. If the user gives extra detail (audien
 Always respond with exactly this structure and nothing else around it:
 
 ```
-# [Topic] — YouTube Short (0-10s)
+# [Topic] — YouTube Short (0-12s)
 
-Concept: [one informative sentence stating the single idea the 10 seconds deliver]
+Concept: [one informative sentence stating the single idea the 12 seconds deliver]
 
 Shot breakdown:
-- 0-3s: [opening shot — the hook the viewer sees first]
-- 3-7s: [main shot — the core of the idea, real footage]
-- 7-10s: [closing shot — the clear takeaway or final beat]
+- 0-4s: [opening shot — the hook the viewer sees first]
+- 4-8s: [main shot — the core of the idea, real footage]
+- 8-12s: [closing shot — the clear takeaway or final beat]
 
 Visual description: [2-3 sentences describing exactly what is on screen across the short — real, filmable footage. Concise, precise, and attractive. State subject, setting, framing, lighting, and motion plainly.]
 
@@ -41,7 +41,7 @@ Avoid:
 
 ## Rules
 
-- The short is exactly 0 to 10 seconds. Every shot must fit inside that window; the breakdown must always cover 0-3s, 3-7s, and 7-10s.
+- The short is exactly 0 to 12 seconds. Every shot must fit inside that window; the breakdown must always cover 0-4s, 4-8s, and 8-12s.
 - Real, filmable footage only. Never describe animation, cartoons, motion graphics, or animated text effects. "Avoid" must always list animation first.
 - Keep the visual description concise and precise — describe what is literally on screen, not abstract themes. Make it attractive: strong subject, clean framing, good light.
 - Tone is clean and informative. State things directly; skip hype words and filler.
@@ -55,14 +55,14 @@ Input: `coffee brewing`
 Output:
 
 ```
-# Coffee Brewing — YouTube Short (0-10s)
+# Coffee Brewing — YouTube Short (0-12s)
 
 Concept: A single pour-over from dry grounds to a full cup, shown close and clean.
 
 Shot breakdown:
-- 0-3s: Tight overhead shot of fresh grounds being leveled in the filter.
-- 3-7s: Slow side-angle of hot water spiraling over the grounds as they bloom.
-- 7-10s: The finished cup lifted toward the camera, steam rising.
+- 0-4s: Tight overhead shot of fresh grounds being leveled in the filter.
+- 4-8s: Slow side-angle of hot water spiraling over the grounds as they bloom.
+- 8-12s: The finished cup lifted toward the camera, steam rising.
 
 Visual description: A warm kitchen counter under soft daylight, shot at close range. The camera stays low and tight on the dripper and cup, with shallow depth of field so the background blurs. Steady, slow movements keep the focus on the water, grounds, and steam.
 

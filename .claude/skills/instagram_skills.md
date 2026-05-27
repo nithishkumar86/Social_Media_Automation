@@ -22,7 +22,7 @@ Read the user's topic and decide which visual fits best. Do not ask the user —
 
 Write the description yourself based on the user's details. Make it vivid and attractive so it is ready to feed into an image or video generation tool. Describe the scene, subject, colors, mood, composition, and on-image text if any.
 
-- If it is a **video**, the description must specify that the video is **animated and attractive**, built to grab attention and drive views. Describe the motion, transitions, pacing, and energy — not just a still scene.
+- If it is a **video**, the description must specify that the video is **attractive** Never Use Animation, built to grab attention and drive views. Describe the Thoughts based on user topic.
 
 Wrap the visual description in square brackets and label it `Image` or `Video`.
 
@@ -60,6 +60,11 @@ For a video, replace the first line with:
 ```
 [Video: full description of the animated, attractive video]
 ```
+
+## Critical Rules
+- Never Use Animation in the description
+- Vedio duration should be 10 - 14 seconds based on that write the content
+- include the sound for the reels in the description
 
 ## Example
 

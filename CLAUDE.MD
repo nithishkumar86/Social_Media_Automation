@@ -50,8 +50,7 @@ COMPANY_PROJECT_DETAILS
 |    |    |_skills/facebook_skills.md (skills that contains to generate the facebook post)
 |    |    |_skills/instagram_skills.md (skills that contains to generate the instagram post)
 |    |    |_skills/youtube_skills.md (skills that contains to generate the youtube post)
-|    |        
-|    |
+|    |      
 |    |__Content_Generation_instruction
 |    |    |_article_instructions.md (instructions for posting article in linked in)
 |    |    |_newsletter_instructions.md (instructions for posting newsletter in linked in)
@@ -65,7 +64,6 @@ COMPANY_PROJECT_DETAILS
 |    |    |_supabase/config.js (configuation file for the supabase file)
 |    |
 |    |_Timeline
-|         |
 |         |_timeline.md
 |
 .env(.env not resides inside the .claude folder it will be present outside)
@@ -74,9 +72,11 @@ COMPANY_PROJECT_DETAILS
 
 * Use the Google Calendar MCP tool to fetch today's exact date and day — no assumptions, no system date.
 
-* Once you have the day, open `Timeline/timeline.md` and match the day to its actions in the table.
+* Once you have the day, open `Timeline/timeline.md` and match the day to its Social Media Platforms in the table.
 
-* Execute only the actions listed for that day — nothing more, nothing less.
+* Take the content in the table for posting Don't Assume by yourself
+
+* Execute only the Social Media Platforms listed for that day — nothing more, nothing less.
 
 ## Section 2 — Instructions
 

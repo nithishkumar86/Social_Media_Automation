@@ -1,7 +1,17 @@
-| Day       | Action                        |
-|-----------|-------------------------------|
-| Monday    | instagram                     |
-| Tuesday   | Post                          |
-| Wednesday | youtube shorts                |
-| Thursday  | Facebook post                 |
-| Friday    | Post                          |
+__________________________________________________________________________________________________________||  | Day         |Content                       | Social Media Platforms
+|_____________|______________________________|_____________________________________________________________
+|monday       |Will AI Agents replace your   |   linked in post
+|             |   job by 2027                | 
+|_____________|______________________________|______________________________________________________________
+|Tuesday      |                              |    youtube shorts, linkedin post
+|             |      AI in 2030              | 
+|_____________|______________________________|_______________________________________________________________
+|wednesday    |why DSA Alone is not enough to|   facebook post, linkin post
+|             |     get hired in 2026        |  
+|_____________|______________________________|_______________________________________________________________
+|Thursday   - |Is Vibe Coding the end of     | instagram reels, linked in post, youtube shorts,facebook post 
+|             | of traditional programmers?  | 
+|_____________|______________________________|_______________________________________________________________
+|Friday       |how ai transformed the coding |    linkedin post
+|             |       world                  |
+|_____________|______________________________|_______________________________________________________________

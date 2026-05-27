@@ -70,7 +70,9 @@ Once the visual is confirmed and verification is complete:
 5. Confirm the post is published before closing the task.
 
 ### Critical Rules for Blotato Posting
-
+- Never Use Animation in the description
+- Vedio duration should be 10 - 14 seconds based on that write the content
+- include the sound for the reels in the description
 - Never skip visual generation — Instagram cannot post without media, so the `[Image: ...]` / `[Video: ...]` block must be replaced with a real media URL before posting.
 - Never generate the image or video yourself — always use Blotato MCP Server.
 - Always match the platform: pass `platform: "instagram"` and an Instagram `accountId` from `blotato_list_accounts`.
