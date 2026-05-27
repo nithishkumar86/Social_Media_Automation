@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/block-env-delete.py"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "fakechat@claude-plugins-official": true,
+    "telegram@claude-plugins-official": true
+  }
+}
