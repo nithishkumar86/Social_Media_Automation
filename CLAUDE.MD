@@ -80,6 +80,10 @@ COMPANY_PROJECT_DETAILS
 
 ## Section 2 — Instructions
 
+if user give the topic explicitly skip the database search till the hypens start and end other wise follow below mentioned instruction strictly 
+
+-----------------------------------------------------------------------------------------------
+
 Before opening any skill file, query the Supabase database using `.claude/supabase/client.js` to fetch the last 15 records for the content type you are about to generate:
 
 - Article → filter by `content_type = "article"`
@@ -91,7 +95,9 @@ Before opening any skill file, query the Supabase database using `.claude/supaba
 
 Review the returned topic and summary fields carefully — never pick a topic that has been used in the last 15 records.
 
-if user give the topic explicitly skip the database search other wise follow below mentioned instruction strictly 
+--------------------------------------------------------------------------------------------------------
+
+## Mandatorly Follow
 
 Choose the topic based on that skill requirement and also check in the supabase db is already picked never use the already use, open the matching skill file for that action:
 
@@ -128,13 +134,15 @@ Read the instruction file and execute its steps exactly — nothing more, nothin
 - Wherever a file path is given, go to that exact file, read it fully, and execute its steps before moving forward.
 - Generate and complete one content type fully before starting the next — Article first, Post second, Newsletter third.
 - Never run content generation, posting, or database update in parallel — strictly sequential always.
-- Do not generate any image yourself — Blotato handles all image generation.
+- if Multiple social Media plaforms is there to post a day execute one by one for example if three platforms
+were given like instagram,linked in, facebook, execute one by one first completely execute instagram till posting in the instagram and database then move to another platform never do parallely that's it  
+- Do not generate any image yourself — Blotato handles all image generation. 
 - Always use tools to execute the work — Google Calendar, Tavily, Blotato, Supabase.
 
 Once each content type is fully generated and posted, immediately update the Supabase database using files in the `supabase/` folder — do not wait for other content types to finish:
 
     1. content_date (YYYY-MM-DD)
-    2. content_type (article / post / newsletter/instagram/faebook,youtube)
+    2. content_type (article / post / newsletter/instagram/facebook,youtube)
     3. topic (based on the generated content) ⚠️ CRITICAL — must be precise and specific
     4. day_of_week (monday, tuesday, ....., sunday)
     5. summary (overall summary 20 to 30 words) ⚠️ CRITICAL — must accurately reflect the content
